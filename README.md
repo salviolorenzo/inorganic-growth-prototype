@@ -1,5 +1,18 @@
 # Inorganic Growth Prototype
 
+## Necessary Capabilities
+
+- Pull in and view mock data, create list items for each entry.
+- Edit list items.
+- Add list item.
+- Remove list item.
+
+### Stretch Goals
+
+- Display performance data with Chart.js
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
