@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class MockDataService {
   constructor() {}
 
-  public mockData = [
+  public companies = [
     {
       id: 1,
       company_name: 'Meedoo',

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MockDataService } from './services/mock-data/mock-data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'insiten-coding-challenge';
+  targets: any = [];
+
+  constructor(mockDataService: MockDataService) {
+    this.targets = mockDataService.companies;
+  }
 }
